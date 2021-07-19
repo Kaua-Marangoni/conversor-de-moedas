@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+}
+
+header {
+    height: 66px;
+    background-color: #1B83E2;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 24px
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-size: 14px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+    margin: 6px 0 24px 0;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    display: block;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    margin: 24px 0 36px 0;
+    background: #1B83E2;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    transition: .1s;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: #F4F4F4;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+button:active {
+    opacity: .8;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+.arrow-image {
+    margin: 15px auto;
+    display: block;
+}
